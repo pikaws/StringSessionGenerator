@@ -3,7 +3,7 @@ services:
   - type: web
     name: StringSessionBot
     env: python
-    startCommand: python3 bot.py
+    startCommand: python3 genStr.py
     buildCommand: pip3 install -U -r requirements.txt
     repo: https://github.com/pikaws/StringSessionGenerator # optional
     region: oregon # optional (defaults to oregon)
