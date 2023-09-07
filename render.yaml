@@ -1,11 +1,11 @@
 services:
   # A Docker web service
   - type: web
-    name: FilterBot
+    name: StringSessionBot
     env: python
-    startCommand: python3 main.py
+    startCommand: python3 bot.py
     buildCommand: pip3 install -U -r requirements.txt
-    repo: https://github.com/pikaws/pikaFilter # optional
+    repo: https://github.com/pikaws/StringSessionGenerator # optional
     region: oregon # optional (defaults to oregon)
     plan: free # optional (defaults to starter)
     branch: main # optional (defaults to master)
